@@ -1,14 +1,5 @@
 const plans = [
-  { text: "Set up this website on my rpi 5(58°C)", status: "completed" },
-  { text: "Configure this website and add more functions.", status: "completed" },
-  { text: "Getting a domain", status: "completed" },
-  { text: "Waiting for m5 stick and tembed", status: "completed" },
-  { text: "Waiting for parts for my marauder", status: "active" },
-  { text: "Waiting for parts for my jammer", status: "active" },
-  { text: "Assemble the marauder", status: "pending" },
-  { text: "Test and debug marauder", status: "pending" },
-  { text: "Assemble the jammer", status: "pending" },
-  { text: "Test and debug jammer", status: "pending" },
+  { text: "No plans at all ngl", status: "completed" }
 ];
 
 const observer = new IntersectionObserver(entries => {
