@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justablock - Home</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
 <div id="terminal-container">
@@ -22,11 +22,11 @@
 
 <nav class="navbar">
     <div class="nav-container">
-        <a href="/" class="nav-logo">Justablock</a>
+        <a href="index.html" class="nav-logo">Justablock</a>
         <ul class="nav-links">
-            <li><a href="/" class="active">Home</a></li>
-            <li><a href="/projects/">Projects</a></li>
-            <li><a href="/services/">Services</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="projects/index.html">Projects</a></li>
+            <li><a href="services/index.html">Services</a></li>
         </ul>
     </div>
 </nav>
@@ -39,7 +39,7 @@
 
     <section class="hero fade-in">
         <div class="avatar-container">
-            <img src="/images/icon.png" alt="Avatar" class="avatar" id="discord-avatar" onclick="glitchMe()">
+            <img src="images/icon.png" alt="Avatar" class="avatar" id="discord-avatar" onclick="glitchMe()">
             <div class="status-indicator" id="status-dot"></div>
             <span id="status-text" class="status-text">Offline</span>
         </div>
@@ -70,21 +70,15 @@
             <span class="badge">💻 VSCode</span>
             <span class="badge">🌐 GitHub</span>
             <span class="badge">🐧 Debian 13</span>
-            
         </div>
     </section>
 
 
     <section class="buttons fade-in">
-        <a href="/services/" class="btn primary">View Services</a>
+        <a href="services/index.html" class="btn primary">View Services</a>
         <a href="https://discord.com/users/994265989120278619" class="btn primary">Contact Me</a>
-        <a href="/projects/" class="btn secondary">View Projects</a>
+        <a href="projects/index.html" class="btn secondary">View Projects</a>
     </section>
-
-    <!-- <section class="fade-in">
-        <h2>Interests</h2>
-        <p>I love tinkering with electronics and making ESP32 projects.</p>
-    </section> -->
 
     <section class="fade-in">
         <h2>GitHub Stats</h2>
@@ -128,7 +122,8 @@
                 </div>
             </div>
             <div class="scanline"></div>
-        </section>
+        </div>
+    </section>
     <section class="plans-container fade-in">
         <h2>Current Plans</h2>
         <div class="roadmap">
@@ -138,16 +133,15 @@
 
 <footer id="footer">
     <div class="social-icons">
-        <a href="https://github.com/JustablockCode" title="GitHub"><img src="/images/icons/github.svg" alt="GitHub"></a>
-        <a href="https://www.tiktok.com/@justablock5" title="TikTok"><img src="/images/icons/tiktok.svg" alt="TikTok"></a>
-        <a href="https://discord.com/users/994265989120278619" title="Discord"><img src="/images/icons/discord.svg" alt="Discord"><span>@justablock_</span></a>
+        <a href="https://github.com/JustablockCode" title="GitHub"><img src="images/icons/github.svg" alt="GitHub"></a>
+        <a href="https://www.tiktok.com/@justablock5" title="TikTok"><img src="images/icons/tiktok.svg" alt="TikTok"></a>
+        <a href="https://discord.com/users/994265989120278619" title="Discord"><img src="images/icons/discord.svg" alt="Discord"><span>@justablock_</span></a>
     </div>
     <p>Find the easter egg</p>
 </footer>
 
-<script src="/js/script.js"></script>
-<!-- <script src="/js/weather.js"></script> -->
-<script src="/js/lanyard.js"></script>
-<script src="/js/puzzle.js"></script>
+<script src="js/script.js"></script>
+<script src="js/lanyard.js"></script>
+<script src="js/puzzle.js"></script>
 </body>
 </html>
