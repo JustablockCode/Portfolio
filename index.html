@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justablock - Home</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+<div id="terminal-container">
+    <div class="terminal-header">
+        <span>JUSTABLOCK_OS v1.0.4 - Security Console</span>
+        <span id="terminal-status">CONNECTED</span>
+    </div>
+    <div id="terminal-body"></div>
+    <div class="terminal-input-area">
+        <span>$</span>
+        <input type="text" id="terminal-input" autocomplete="off">
+    </div>
+</div>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="/" class="nav-logo">Justablock</a>
+        <ul class="nav-links">
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="/projects/">Projects</a></li>
+            <li><a href="/services/">Services</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div id="android-banner-anchor" style="margin-top: 70px;"></div>
+
+<script src="https://keepandroidopen.org/banner.js?id=android-banner-anchor&link=https://keepandroidopen.org"></script>
+
+<main class="container">
+
+    <section class="hero fade-in">
+        <div class="avatar-container">
+            <img src="/images/icon.png" alt="Avatar" class="avatar" id="discord-avatar" onclick="glitchMe()">
+            <div class="status-indicator" id="status-dot"></div>
+            <span id="status-text" class="status-text">Offline</span>
+        </div>
+        <h1>Justablock</h1>
+        <p class="subtitle">A developer interested in coding and electronics.</p>
+
+        <div id="lanyard-activity" class="activity-container">
+            </div>
+    </section>
+
+    <section class="fade-in">
+        <h2>Skills</h2>
+        <div class="badges">
+            <span class="badge">🐍 Python</span>
+            <span class="badge">🌐 HTML</span>
+            <span class="badge">🎮 LuaU (a tiny bit)</span>
+            <span class="badge">🪛 Electronics</span>
+            <span class="badge">💻 PCB Design</span>
+            <span class="badge">⌨️ Basic Linux Commands Knowledge</span>
+            <span class="badge">🕛 Automation</span>
+            <span class="badge">🤖 AI</span>
+        </div>
+    </section>
+
+    <section class="fade-in">
+        <h2>IDE's tools and etc</h2>
+        <div class="badges">
+            <span class="badge">💻 VSCode</span>
+            <span class="badge">🌐 GitHub</span>
+            <span class="badge">🐧 Debian 13</span>
+            
+        </div>
+    </section>
+
+
+    <section class="buttons fade-in">
+        <a href="/services/" class="btn primary">View Services</a>
+        <a href="https://discord.com/users/994265989120278619" class="btn primary">Contact Me</a>
+        <a href="/projects/" class="btn secondary">View Projects</a>
+    </section>
+
+    <!-- <section class="fade-in">
+        <h2>Interests</h2>
+        <p>I love tinkering with electronics and making ESP32 projects.</p>
+    </section> -->
+
+    <section class="fade-in">
+        <h2>GitHub Stats</h2>
+        <div class="gh-monitor">
+            <div class="gh-header">
+                <span class="pulse-dot"></span>
+                <span class="label">User: JustablockCode // Status: Connected</span>
+            </div>
+                
+            <div class="stats-grid">
+                <div class="stat-card stat-full">
+                    <span class="label">Total Contributions</span>
+                    <span id="total-contributions" class="value-large">000</span>
+                </div>
+                    
+                <div class="stat-card">
+                    <span class="label">Own Projects</span>
+                    <span id="own-projects-contrib" class="value">--</span>
+                    <div class="bar-container"><div id="own-bar" class="bar"></div></div>
+                </div>
+                    
+                <div class="stat-card">
+                    <span class="label">External</span>
+                    <span id="ext-projects-contrib" class="value">--</span>
+                    <div class="bar-container"><div id="ext-bar" class="bar" style="background: #58a6ff; box-shadow: 0 0 10px rgba(88, 166, 255, 0.5);"></div></div>
+                </div>
+            </div>
+
+            <div class="project-breakdown">
+                <div class="pane">
+                    <h3><span class="label">> TOP OWN PROJECTS</span></h3>
+                    <ul id="own-list" class="mini-list">
+                        <li>Loading local data...</li>
+                    </ul>
+                </div>
+                <div class="pane">
+                    <h3><span class="label">> EXTERNAL ACTIVITY</span></h3>
+                    <ul id="ext-list" class="mini-list">
+                        <li>Tracing remote nodes...</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="scanline"></div>
+        </section>
+    <section class="plans-container fade-in">
+        <h2>Current Plans</h2>
+        <div class="roadmap">
+            </div>
+    </section>
+</main>
+
+<footer id="footer">
+    <div class="social-icons">
+        <a href="https://github.com/JustablockCode" title="GitHub"><img src="/images/icons/github.svg" alt="GitHub"></a>
+        <a href="https://www.tiktok.com/@justablock5" title="TikTok"><img src="/images/icons/tiktok.svg" alt="TikTok"></a>
+        <a href="https://discord.com/users/994265989120278619" title="Discord"><img src="/images/icons/discord.svg" alt="Discord"><span>@justablock_</span></a>
+    </div>
+    <p>Find the easter egg</p>
+</footer>
+
+<script src="/js/script.js"></script>
+<!-- <script src="/js/weather.js"></script> -->
+<script src="/js/lanyard.js"></script>
+<script src="/js/puzzle.js"></script>
+</body>
+</html>
