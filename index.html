@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justablock - Home</title>
+    <meta name="description" content="Justablock — a developer who builds custom Android kernels, electronics, and 3D printing tools.">
+    <meta name="keywords" content="Android kernel, custom kernel, Redmi 9, lancelot, ReSukiSU, SUSFS, electronics, PCB design, 3D printing">
+    <meta name="author" content="Justablock">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="./" class="nav-logo">Justablock</a>
+        <ul class="nav-links">
+            <li><a href="./" class="active">Home</a></li>
+            <li><a href="projects/">Projects</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div id="android-banner-anchor" style="margin-top: 96px;"></div>
+
+<script src="https://keepandroidopen.org/banner.js?id=android-banner-anchor&link=https://keepandroidopen.org"></script>
+
+<main class="container">
+
+    <section class="hero fade-in">
+        <div class="avatar-container">
+            <img src="images/icon.png" alt="Avatar" class="avatar" id="discord-avatar">
+            <div class="status-indicator" id="status-dot"></div>
+            <span id="status-text" class="status-text">Offline</span>
+        </div>
+        <h1>Justablock</h1>
+        <p class="subtitle">Android kernel developer, electronics tinkerer, and 3D printing enthusiast.</p>
+        <div id="lanyard-activity" class="activity-container"></div>
+    </section>
+
+    <section class="fade-in">
+        <h2>Capabilities</h2>
+        <div class="cap-grid">
+            <div class="cap-group">
+                <h3>Development</h3>
+                <ul class="cap-list">
+                    <li>Android Kernel Development</li>
+                    <li>C &amp; Python</li>
+                    <li>HTML &amp; CSS</li>
+                    <li>Linux</li>
+                    <li>Automation</li>
+                </ul>
+            </div>
+            <div class="cap-group">
+                <h3>Hardware</h3>
+                <ul class="cap-list">
+                    <li>Electronics Design</li>
+                    <li>PCB Design</li>
+                    <li>3D Printing &amp; Modeling</li>
+                </ul>
+            </div>
+            <div class="cap-group">
+                <h3>Toolbox</h3>
+                <ul class="cap-list">
+                    <li>VSCode</li>
+                    <li>GitHub</li>
+                    <li>Debian 13</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-section fade-in">
+        <div class="featured-badge">Featured Project</div>
+        <div class="featured-card">
+            <div>
+                <h2>Reviver Kernel for lancelot</h2>
+                <p>A custom 4.19 Android kernel for the Xiaomi Redmi 9 with ReSukiSU root and SUSFS support.</p>
+                <div class="featured-stats">
+                    <div class="featured-stat">
+                        <span class="star-count" data-repo="Reviver-Kernel-lancelot">★ --</span>
+                        <small>GitHub Stars</small>
+                    </div>
+                    <div class="featured-stat">
+                        <span>4.19</span>
+                        <small>Linux Kernel</small>
+                    </div>
+                    <div class="featured-stat">
+                        <span>Android 16</span>
+                        <small>Base</small>
+                    </div>
+                </div>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:16px; align-items:center; justify-content:center;">
+                <a class="btn primary" href="projects/reviver-kernel/" style="width:100%; max-width:280px;">View Project</a>
+                <a class="btn secondary" href="https://github.com/JustablockCode/Reviver-Kernel-lancelot" target="_blank" rel="noopener" style="width:100%; max-width:280px;">GitHub Repository</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="buttons fade-in">
+        <div class="contact-wrap">
+            <button class="btn primary" id="contact-btn" type="button">Contact Me</button>
+            <div class="contact-menu" id="contact-menu">
+                <a href="https://github.com/JustablockCode" target="_blank" rel="noopener">
+                    <img src="images/icons/github.svg" alt="">GitHub
+                </a>
+                <a href="https://www.tiktok.com/@justablock5" target="_blank" rel="noopener">
+                    <img src="images/icons/tiktok.svg" alt="">TikTok
+                </a>
+                <a href="https://discord.com/users/994265989120278619" target="_blank" rel="noopener">
+                    <img src="images/icons/discord.svg" alt="">Discord
+                </a>
+                <a href="mailto:bdfd000@gmail.com">
+                    <span class="contact-email-icon">✉</span>Email
+                </a>
+            </div>
+        </div>
+        <a href="projects/" class="btn secondary">View All Projects</a>
+    </section>
+
+    </main>
+
+<footer>
+    <div class="social-icons">
+        <a href="https://github.com/JustablockCode" title="GitHub">
+            <img src="images/icons/github.svg" alt="GitHub" loading="lazy">
+        </a>
+        <a href="https://www.tiktok.com/@justablock5" title="TikTok">
+            <img src="images/icons/tiktok.svg" alt="TikTok" loading="lazy">
+        </a>
+        <a href="https://discord.com/users/994265989120278619" title="Discord">
+            <img src="images/icons/discord.svg" alt="Discord" loading="lazy">
+            <span>@justablock_</span>
+        </a>
+    </div>
+    <p>© 2026 Justablock</p>
+</footer>
+
+<script src="js/lanyard.js" defer></script>
+<script src="js/contact.js" defer></script>
+<script src="js/github-stars.js" defer></script>
+</body>
+</html>
